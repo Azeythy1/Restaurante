@@ -10,7 +10,7 @@
     border-radius:5px;
     border: none;
     flex: 2;
-    background-color: rgb(15, 69, 92);
+    background-color: rgba(204, 102, 102, 0.432);
     color: aliceblue;
     text-transform: uppercase;
 }

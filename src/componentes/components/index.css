@@ -1,36 +1,59 @@
-  
+
 .header{
-    color: aliceblue;
-    background-color: rgb(45, 75, 88);
-   }
+    color: rgb(0, 0, 0);
+    background-color: rgb(204, 102, 102);
+    display: flex;
+    flex-direction: column;
+    
+}
+.btnHeader{
+    align-items:safe;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: #000000 2px 2px 2px 1px;
+    width: 500px;
+    transition: fade 0.5ms;
+    
+}
+.btnHeader:focus{
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: #000000 2px 2px 2px 1px;
+    width: 500px;
+    transition: fade 0.5ms;
+}
 .Container{
 max-width: 500px;
-margin: 5% auto;
+margin: 0 auto;
 overflow: auto;
 min-height: 300px;
-border: 3px solid rgb(30, 153, 210);
 padding: 30px;
 border-radius: 10px;
-
-background-color: rgb(45, 75, 88);
-color: aliceblue;
+align-items: center;
+justify-content: center;
+background-color: rgb(204, 102, 102);
+color: rgb(255, 255, 255);
 }
 .comanda-header{
-    color: #eee;
-    background-color: rgb(45, 75, 88);
+    color: #ffffff;
+    background-color: rgb(204, 102, 102);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 44px;
-    text-shadow: rgb(30, 153, 210) 2px 1px 1px;
+    background-color: rgb(204, 102, 102);
 
 }
 .nav-link{
-    color: #eee;
+    
+    color: #ffffff;
     font-style: inherit;
-    border: #eee solid 1px;
+    border: #000000 solid 1px;
     border-radius: 6px;
     height: 40px;
-    background-color: inherit;
+    background-color: rgb(204, 102, 102);
     text-decoration: none;
     text-decoration-line: initial;
     margin: 4px;
@@ -38,7 +61,7 @@ color: aliceblue;
     text-align: center;
 }
 .nav-link:hover{
-    background-color: #eee;
+    background-color: rgb(204, 102, 102);
     color: black;
     text-align: center;
 }
