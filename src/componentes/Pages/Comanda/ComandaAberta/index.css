@@ -1,0 +1,53 @@
+.Container{
+    max-width: 500px;
+    margin: 5% auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 3px solid rgb(30, 153, 210);
+    padding: 30px;
+    border-radius: 10px;
+    
+    background-color: rgb(45, 75, 88);
+    color: aliceblue;
+    }
+
+.header-page-Vendas{
+    text-align: center;
+    color: #eee;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+.comanda-detalhes-container{
+    background: rgb(45, 50, 54);
+    margin: 15px 0;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+    border-radius: 5px;
+}
+.comanda-detalhes-container h2{
+    margin-bottom: 5px;
+    color:rgb(30, 153, 210) ;
+    text-transform: uppercase;
+    
+}
+.back-button-container{
+    width: 30%;
+    background-color: inherit;
+    border: none;
+    color: #eee;
+
+}
+.nav-link{
+   color: #eee; 
+}
+.btn-Voltar{
+ color: #eee;   
+}
+.btn-Voltar :hover{
+    color: #eee;   
+    
+   }

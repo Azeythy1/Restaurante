@@ -1,0 +1,17 @@
+:root {
+    --main-bg-color: #222;
+    --main-input-color:#444;
+    --button-color:rgb(30, 153, 210);
+  }
+.button{
+    background-color:var(--button-color);
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    color: var(--main-input-color);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}

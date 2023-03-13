@@ -1,0 +1,39 @@
+.cliente-container{
+    background-color: rgb(15, 69, 92);
+    margin: 8px 0;
+    padding: 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: #eee;
+    align-items: center;
+    
+}
+.cliente-nome{
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.button-container{
+    display: flex;
+
+}
+.remove-cliente-button{
+    background-color:inherit;
+    border: none;
+    font-size: 22px;
+    color: rgb(30, 153, 210);
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+.edit-comanda-button{
+    background-color: inherit;
+    border: none;
+    font-size: 22px;
+    color: rgb(30, 153, 210);
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: 700;
+
+}

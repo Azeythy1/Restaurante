@@ -1,0 +1,20 @@
+.add-cliente-container{
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+
+}
+.add-cliente-input{
+    height: 40px;
+    padding:0 10px;
+    border-radius:5px;
+    border: none;
+    flex: 2;
+    background-color: rgb(15, 69, 92);
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.add-cliente-button-container{
+    margin-left: 10px;
+    flex: 1;
+}
