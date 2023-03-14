@@ -7,6 +7,8 @@ import Fotos from './componentes/Pages/Fotos/Fotos';
 import Momentos from './componentes/Pages/Momentos/Momentos';
 import ComandaAberta from './componentes/Pages/Comanda/ComandaAberta/ComandaAberta';
 import ComandaFechada from './componentes/Pages/Comanda/Comandafechada/ComandaFechada';
+import Login from './componentes/Pages/Login/Login';
+import Cadastro from './componentes/Pages/Cadastro/Cadastro';
 
 function App() {
   return (
@@ -14,7 +16,10 @@ function App() {
     <Router className="App">
 
         <Routes>
-          <Route path='/' exact element={<Home/>} />
+
+          <Route path='/' exact element={<Login/>} />
+          <Route path='/Cadastro' element={<Cadastro/> } />
+          <Route path='/Home' element={<Home/> } />
           <Route path='/Fotos' element={<Fotos/>} />
           <Route path='/Momentos' element={<Momentos/>} />
           <Route path='/ComandaAberta' element={<ComandaAberta/> } />

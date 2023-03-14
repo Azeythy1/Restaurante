@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 4px 1px #750;
+    width: 320px;
+    height: 320px;
+    
+    
+}
+.text-p{
+    justify-content: center;
+    display: flex;
+}
