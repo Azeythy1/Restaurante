@@ -1,7 +1,7 @@
 :root {
-    --main-bg-color: #e27b7b;
+    --main-bg-color: #ffffff;
     --main-input-color:#ffffff;
-    --button-color:rgb(210, 30, 99);
+    --button-color:#283079;
   }
 .button{
     background-color:var(--button-color);
