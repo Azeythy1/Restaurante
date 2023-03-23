@@ -20,8 +20,6 @@ const Momentos=()=> {
 const handleClienteCLick = (clienteId) => {
   const newClientes= clientes.map((cliente) =>{
     if (cliente.id === clienteId) return { ...cliente, fechado: !cliente.fechado}
-
-
     return cliente ;
   });
   setClientes(newClientes)
@@ -36,6 +34,8 @@ const newClientes=[...clientes,
   nome:clienteNome,
   id:uuidv4(),
   fechado:false,
+  mesa:0,
+  comanda:[]
 },
 
 ];
@@ -58,7 +58,7 @@ const newClientes=[...clientes,
 
 
         <div className="Container">
-          <h1 className="comanda-header" >Comanda</h1>
+          <h1 className="comanda-header" >Abrir Comanda</h1>
 
           <AddCliente handleClienteAdition={handleClienteAdition} />
 

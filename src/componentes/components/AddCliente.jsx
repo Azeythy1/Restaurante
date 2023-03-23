@@ -15,7 +15,7 @@ const AddCliente= ({handleClienteAdition}) => {
       const handleAddClienteClick=()=>{
            if(inputDados ===""){alert('Nome Vazio')} else{ handleClienteAdition(inputDados)
            }setInputDados(" ");
-           console.log(inputDados)
+           
       }
     return (
       <div className='add-cliente-container'>

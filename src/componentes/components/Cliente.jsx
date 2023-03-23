@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
         return (
        
             <div className='cliente-container' 
-                style={cliente.fechado ? { borderLeft:' 6px solid #d2691e'} :{}}>
+                style={cliente.fechado ? { borderLeft:' 6px solid #228'} :{}}>
 
 
                 <div className='cliente-nome' 

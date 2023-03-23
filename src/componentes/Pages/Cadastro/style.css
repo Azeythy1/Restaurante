@@ -1,8 +1,8 @@
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items:normal;
     text-align: center;
     box-shadow:#b8afaf 2px 3px 10px,
                #b8afaf -2px -3px 10px;
@@ -13,6 +13,8 @@
 .content{
     width: 299px;
     height: 300px;
+    justify-content: space-around;
+    margin:0 auto;
     
 }
 .btn-box{
@@ -25,11 +27,7 @@ h1{
     margin-top: 10px;
     margin-bottom: 70px;
 }
-.text-p{
-    justify-content: center;
-    display: flex;
-    margin-top: 27px; 
-}
+
 p{
     font-size: 20px;
     font-weight: 400;
